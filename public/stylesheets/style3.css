@@ -4,20 +4,9 @@ html {
   }
 
 
-
   .navbar{
     background-color: #ff5900;
-  }
-  .carousel.carousel-slider{
 
-  }
-  .p1 {
-
-    font-family: helvetica;
-
-  }
-  .p2{
-      font-family: helvetica;
   }
   body {
      display: flex;
