@@ -12,14 +12,14 @@ body {
 
 h1{ text-align: center;
   color: #fafafa;
-  font-family: cooper hewitt;
+  font-family: helvetica;
   font-size: 100px;
   margin: 0 auto;
 }
 
 h2{text-align: center;
   Color: #fafafa;
-  font-family: Helvetica;
+  font-family: cooper hewitt;
   font-size: 90px;
   margin: 200 auto;
 }
