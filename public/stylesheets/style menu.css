@@ -1,4 +1,12 @@
 
+
+
+.brand-logo{
+  width: 60px;
+  height: 60px;
+}
+
+
 html {
     font-family:Helvetica;
   }
@@ -31,4 +39,25 @@ h2{text-align: center;
 
 a {
   color: #00B7FF;
+}
+  }
+  .brand-logo{
+    width: 60px;
+    height: 60px;
+  }
+
+  .navbar{
+    background-color: #ff5900;
+
+}
+
+.brand{
+  width: 100px;
+  height: 100px;
+
+}
+
+.page-footer{
+  background-color: #ff5900;
+  margin-top: 100px;
 }

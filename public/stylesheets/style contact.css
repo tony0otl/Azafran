@@ -3,30 +3,17 @@ html {
     font-family:Helvetica;
   }
 
-#cocina{
-font-size: 40px ;
-   font-family:cooper hewitt;
-}
-#cocina2{
-  font-size: 20px ;
-  font-family:cooper hewitt;
-}
+  .brand-logo{
+    width: 60px;
+    height: 60px;
+  }
+
   .navbar{
     background-color: #ff5900;
   }
   .carousel.carousel-slider{
 
   }
-
-.brand-logo{
-  width: 60px;
-  height: 60px;
-}
-
-
-
-
-
   .p1 {
 
     font-family: helvetica;
