@@ -12,7 +12,7 @@ html {
   }
 
 body {
-  background-image: url("../images/paella2.png");
+  background-image: url("");
   background-repeat: no-repeat;
   background-size: cover;
   font-family: Helvetica;
@@ -33,6 +33,7 @@ h2{text-align: center;
 }
 .btn{
   margin-top: 100px;
+  margin-bottom: 80px;
 
 }
 
@@ -60,4 +61,11 @@ a {
 .page-footer{
   background-color: #ff5900;
   margin-top: 100px;
+}
+.lok{
+  background-image: url("../images/paella2.png");
+  margin-bottom: 70px;
+}
+#nonono{
+  margin-top: 199px;
 }
