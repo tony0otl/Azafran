@@ -8,7 +8,7 @@ font-size: 40px ;
    font-family:cooper hewitt;
 }
 #cocina2{
-  font-size: 20px ;
+  font-size: 40px ;
   font-family:cooper hewitt;
 }
   .navbar{
@@ -33,7 +33,8 @@ font-size: 40px ;
 #carucel{
   width: 100%;
   margin: 0;
-  max-width: 1080px
+  max-width: 1440px;
+  height: 30
 
 }
 
@@ -65,19 +66,37 @@ font-size: 40px ;
   font-size: 90px;
 
 }
+#mar{
 
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
 .lock{
   font-size: 90px;
   color: #fafafa;
 
 }
-
-h1 {
-  font-size: 50px;
-  position: relative;
+h6{
+  font-size: 40px ;
+     font-family:cooper hewitt;
+}
+h7 {
+  font-size: 40px ;
+     font-family:cooper hewitt;
+}
+#myrow{
+  margin-top: 100px;
+}
+.baner{
+  width: auto;
+  height: 100px;
+}
+h1{
+font-size: 40px ;
+   font-family:cooper hewitt;
 }
 h2 {
-  font-size: 50px;
+  font-size: 60px;
   position: relative;
 }
 h3 {
@@ -89,6 +108,6 @@ h4 {
   position: relative;
 }
 h5 {
-  font-size: 50px;
-  position: relative;
+  font-size: 40px ;
+     font-family:cooper hewitt;
 }

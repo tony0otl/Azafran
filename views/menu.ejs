@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -11,6 +13,16 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 <link rel='stylesheet' href='/stylesheets/style menu.css' />
 
@@ -21,9 +33,10 @@
     <div class="nav-warapper" >
       <a><img class="brand-logo" src="../images/circle-512.png" alt=""></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="/home">home</a></li>
-        <li><a href="/contact">contatanos</a></li>
-        <li><a href="/menu">menu</a></li>
+        <li><a href="/home">inicio</a></li>
+        <li><a href="/menu">reservaciones</a></li>
+        <li><a href="/contact">contactanos</a></li>
+
       </ul>
     </div>
   </nav>
@@ -38,26 +51,26 @@
 <div class= "lok">
   <h1><img class="brand" src="./images/circle-512.png" alt="">Azafran</h1>
   <h2>Una cocina con gusto y mucha pasión.</h2>
-<center><a class="btn" href="/home">Reserva tu espacio hora</a></center>
+<center><a class="btn" href="/home">Reserva tu espacio ahora</a></center>
 </div>
 
 
-<center><h3>Tag line</h3></center>
-<div id= "cocina2"class="col s12">Words .</div></center>
+<center><h3>Opciones</h3></center>
+<div id= "cocina2"class="col s12">Disfuta de la mejor experiencia gastronomica en Puerto Rico. Aqui tendras la opción de escoger entre las distintas paellas para la venta.</div></center>
 
 <div id=nonono>
 <div class="row" >
-        <div class="col s6 m6">
-          <div class="card">
+        <div  class="col s6 m6">
+          <div id="pop" class="card">
             <div class="card-image">
-              <img src="images/pollo.jpg">
-              <span class="card-title">paella de pollo</span>
+              <img id="uo"src="images/pollo.jpg">
+              <span class="card-title">Paella de pollo</span>
             </div>
             <div class="card-content">
-              <p>esta es una de las paellas mas basicas que ofresemos que contiene mucho sabor</p>
+              <p>Esta es una de las paellas mas basicas que ofresemos que contiene mucho sabor</p>
             </div>
             <div class="card-action">
-              <a href="#">Reserva tu espacio hora</a>
+              <a href="#">Reserva tu espacio ahora</a>
             </div>
           </div>
         </div>
@@ -65,13 +78,13 @@
           <div class="card">
             <div class="card-image">
               <img src="images/Paella-Campesina.jpg">
-              <span class="card-title">paella campesina</span>
+              <span class="card-title">Paella campesina</span>
             </div>
             <div class="card-content">
               <p>Estapalla combina todas tipo de carne para una sabrosa experiencia.</p>
             </div>
             <div class="card-action">
-              <a href="#">Reserva tu espacio hora</a>
+              <a href="#">Reserva tu espacio ahora</a>
             </div>
           </div>
         </div>
@@ -82,27 +95,26 @@
                 <div class="card">
                   <div class="card-image">
                     <img src="images/paellam.jpg">
-                    <span class="card-title">paella de mariscos</span>
+                    <span class="card-title">Paella de mariscos</span>
                   </div>
                   <div class="card-content">
-                    <p>la paella de mariscos esta repleta de variedads de animales nauticas para una eperiensa culinaria fresca del mar</p>
+                    <p>La paella de mariscos esta repleta de variedads de animales nauticas para una experiencia culinaria fresca del mar</p>
                   </div>
                   <div class="card-action">
-                    <a href="#">Reserva tu espacio hora</a>
+                    <a href="">Reserva tu espacio ahora</a>
                   </div>
                 </div>
               </div>
               <div class="col s6 m6">
-                <div class="card">
-                  <div class="card-image">
-                    <img src="images/paellav.jpg">
-                    <span class="card-title">paella valencia</span>
+                <div id="lol" class="card">
+                  <div id="va" class="card-image">
+                    <img src="images/paellavalen.jpg">
+                    <span class="card-title">Paella valencia</span>
                   </div>
-                  <div class="card-content">
-                    <p>esta paella combina lo mejor de los dos mundos de mariscos y pollo</p>
+                  <div class="card-content">Esta paella combina lo mejor de los dos mundos de mariscos y pollo</p>
                   </div>
                   <div class="card-action">
-                    <a href="#">Reserva tu espacio hora</a>
+                    <a href="">Reserva tu espacio ahora</a>
                   </div>
                 </div>
               </div>
@@ -110,9 +122,9 @@
           </div>
 
           <form id="uuu" class="w3-container w3-card-4 w3-light-grey">
-            <h3>Danos tu opinion</h2>
+            <h3>Ordena</h2>
 
-            <p><label>Nobre</label>
+            <p><label>Nombre</label>
             <input class="w3-input w3-border" name="first" type="text"></p>
 
             <p><label>Email</label>
@@ -121,30 +133,28 @@
             <p><label>Tel.</label>
             <input class="w3-input w3-border" name="last" type="text"></p>
 
-            <p><label>cantidad de personas</label>
+            <p><label>Cantidad de personas(minimo de 10 personas)</label>
             <input class="w3-input w3-border" name="last" type="text"></p>
 
-            <p><label>Direccion</label>
+            <p><label>Dirección</label>
             <input class="w3-input w3-border" name="last" type="text"></p>
 
-            <p><label>Tel.</label>
-            <input class="w3-input w3-border" name="last" type="text"></p>
 
-            <select class="w3-select" name="option">
-              <option value="" disabled selected>Choose your option</option>
-              <option value="1">Paella de pollo</option>
-              <option value="2">Paella campesino</option>
-              <option value="3">Paella de mariscos</option>
-              <option value="3">Paella valenciana</option>
-            </select>
 
           </form>
 
+          <div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">paellas
+  <span class="caret"></span></button>
+  <ul class="dropdown-menu">
+    <li><a href="#">Paella de pollo</a></li>
+    <li><a href="#">Paella campesina</a></li>
+    <li><a href="#">Paella de mariscos</a></li>
+    <li><a href="#">Paella valenciana</a></li>
+  </ul>
+</div>
 
-<center><a class="btn" href="/home">Envia</a></center>
-
-
-
+<p><button class="w3-button w3-orange">Pagar</button></p>
 
 
         <footer class="page-footer">
@@ -152,12 +162,12 @@
                    <div class="row">
                      <div class="col l6 s12">
                        <h5 class="white-text">Contact info</h5>
-                       <p class="grey-text text-lighten-4">chef tony:787-671-5586</p>
+                       <p class="grey-text text-lighten-4">Chef Tony:787-671-5586</p>
                      </div>
                      <div class="col l4 offset-l2 s12">
                        <h5 class="white-text">Links</h5>
                        <ul>
-                         <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/paellasazafran303/?fref=ts">our facebook page</a></li>
+                         <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/paellasazafran303/?fref=ts">Our Facebook Page</a></li>
                        </ul>
                      </div>
                    </div>

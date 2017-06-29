@@ -1,6 +1,3 @@
-
-
-
 .brand-logo{
   width: 60px;
   height: 60px;
@@ -8,7 +5,7 @@
 
 
 html {
-    font-family:Helvetica;
+    font-family:;
   }
 
 body {
@@ -32,12 +29,18 @@ h2{text-align: center;
   margin: 200 auto;
 }
 .btn{
-  margin-top: 100px;
-  margin-bottom: 80px;
-
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #ff5900;
 }
-
-
+h3 {
+  font-size: 60px ;
+     font-family:cooper hewitt;
+}
+#cocina2{
+  font-size: 40px ;
+  font-family:cooper hewitt;
+}
 a {
   color: #00B7FF;
 }
@@ -64,8 +67,12 @@ a {
 }
 .lok{
   background-image: url("../images/paella2.png");
+
   margin-bottom: 70px;
+
 }
 #nonono{
-  margin-top: 199px;
+  margin-top: 80px;
+}
+
 }

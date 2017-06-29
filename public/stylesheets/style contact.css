@@ -1,6 +1,6 @@
 
 html {
-    font-family:Helvetica;
+    font-family:cooper hewitt;
   }
 
   .brand-logo{
@@ -16,11 +16,11 @@ html {
   }
   .p1 {
 
-    font-family: helvetica;
+    font-family: cooper hewitt;
 
   }
   .p2{
-      font-family: helvetica;
+      font-family:cooper hewitt ;
   }
   body {
      display: flex;
@@ -28,6 +28,9 @@ html {
      flex-direction: column;
    }
 
+.dropdown{
+  margin: 0
+}
    main {
      flex: 1 0 auto;
    }
