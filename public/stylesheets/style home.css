@@ -6,9 +6,10 @@ html {
 #cocina{
 font-size: 40px ;
    font-family:cooper hewitt;
+   font-weight: bold;
 }
 #cocina2{
-  font-size: 40px ;
+  font-size: 30px ;
   font-family:cooper hewitt;
 }
   .navbar{
@@ -79,6 +80,7 @@ font-size: 40px ;
 h6{
   font-size: 40px ;
      font-family:cooper hewitt;
+     font-weight: bold;
 }
 h7 {
   font-size: 40px ;
@@ -95,19 +97,42 @@ h1{
 font-size: 40px ;
    font-family:cooper hewitt;
 }
-h2 {
-  font-size: 60px;
-  position: relative;
+h2{ text-align: center;
+  color: #fafafa;
+  font-family:cooper hewitt ;
+  font-size: 100px;
+  margin: 0 auto;
 }
+
+#brand{
+  width: 90px;
+  height: 90px;
+}
+
 h3 {
   font-size: 50px;
   position: relative;
 }
+
 h4 {
   font-size: 50px;
-  position: relative;
+  position: fixed;
 }
+
 h5 {
   font-size: 40px ;
-     font-family:cooper hewitt;
+  font-family:cooper hewitt;
+  font-weight: bold;
+}
+
+.containerBox {
+  position: relative;
+  display: inline-block;
+}
+
+.text-box{
+  position: absolute;
+  height: 100%;
+  text-align: center;
+  width: 100%;
 }
